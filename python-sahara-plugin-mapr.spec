@@ -29,7 +29,7 @@ The MapR plugin for Sahara allows Sahara to provision and \
 manage MapR clusters on OpenStack.
 
 Name:          python-sahara-plugin-mapr
-Version:       1.0.0
+Version:       1.0.1
 Release:       1%{?dist}
 Summary:       Apache Hadoop cluster management on OpenStack
 License:       ASL 2.0
@@ -179,6 +179,9 @@ install -p -D -m 644 doc/build/man/*.1 %{buildroot}%{_mandir}/man1/
 
 
 %changelog
+* Tue Oct 22 2019 RDO <dev@lists.rdoproject.org> 1.0.1-1
+- Update to 1.0.1
+
 * Wed Apr 10 2019 RDO <dev@lists.rdoproject.org> 1.0.0-1
 - Update to 1.0.0
 
