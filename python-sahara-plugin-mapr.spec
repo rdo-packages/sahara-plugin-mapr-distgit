@@ -155,3 +155,4 @@ install -p -D -m 644 doc/build/man/*.1 %{buildroot}%{_mandir}/man1/
 
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/sahara-plugin-mapr/commit/?id=ae9fc93da2eeae1ead7fef2b46d1ca94745b52b3
