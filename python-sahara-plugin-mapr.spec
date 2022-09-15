@@ -69,7 +69,6 @@ Requires:         python3-oslo-utils >= 3.33.0
 Requires:         python3-pbr >= 2.0.0
 Requires:         python3-requests >= 2.14.2
 Requires:         python3-sahara >= 10.0.0
-Requires:         python3-six >= 1.10.0
 
 # Extend the Sahara api and engine packages
 Supplements:      openstack-sahara-api
